@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+    <style>
+    body {
+      background-color: #f2f2f2;
+  }
+    .grid-container {
+      display: grid;
+      grid-template-rows: 30% 30%;
+    }
+
+    .grid-container1 {
+      width: 500px;
+      height: 200px;
+      display: grid;
+      grid-template-columns:35% 60%;
+        background-color: white;
+        margin-bottom: 10px;
+        margin-left: 20%;
+    }
+    img
+    {
+      height: 100%;
+      width:100%;
+    }
+    .price
+    {
+      font-size: 22px;
+      font-weight: 600;
+      padding-top:10px;
+    }
+    .productName
+    {
+      font-size: 20px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+    .quantity, .color, .size
+    {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .grid-container1>div
+    {
+      margin-right: 20px;
+    }
+    .block {
+    position: fixed;
+    margin-top: 10px;
+    top: 0;
+    right: 15%;
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.close {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  width: 22px;
+  height: 22px;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #006e93;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.close:after,
+.close:before {
+  position: absolute;
+  content:"";
+  background-color: #006e93;
+}
+
+.close:after {
+  width: 2px;
+  height: 10px;
+  top: 6px;
+  left: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close:before {
+  width: 10px;
+  height: 2px;
+  top: 10px;
+  left: 6px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close:hover {
+  background: #e60500;
+  box-shadow: none;
+}
+
+.close:hover:after,
+.close:hover:before {
+  background: #faf3d6;
+}
+
+      </style>
+  </head>
+  <body>
+
+    <div class="grid-container">
+</div>
+
+
+<div class="block">
+    <div class="price">Total price:321 $</div>
+    <button>Make order</button>
+</div>
+      <div class="grid-container1">
+        <div>
+        <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+      </div>
+
+      <div>
+          <div class="close"></div>
+      <div class="price">40.312 $ </div>
+          <div class="productName">Asprit Jumper With Garment Dye  </div>
+            <div class="quantity">Quantity: 4</div>
+              <div class="size">Size: XL </div>
+
+      </div>
+
+
+</div>
+
+<div class="grid-container1">
+
+  <div>
+  <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+</div>
+<div>
+<div class="price">40.312 $ </div>
+    <div class="productName">Asprit Jumper With Garment Dye  </div>
+      <div class="quantity">Quantity: 4</div>
+        <div class="color">Color: Blue </div>
+        <div class="size">Size: XL </div>
+</div>
+
+
+</div>
+<div class="grid-container1">
+
+  <div>
+  <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+</div>
+<div>
+<div class="price">40.312 $ </div>
+    <div class="productName">Asprit Jumper With Garment Dye  </div>
+      <div class="quantity">Quantity: 4</div>
+        <div class="color">Color: Blue </div>
+        <div class="size">Size: XL </div>
+</div>
+
+
+</div>
+<div class="grid-container1">
+
+  <div>
+  <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+</div>
+<div>
+<div class="price">40.312 $ </div>
+    <div class="productName">Asprit Jumper With Garment Dye  </div>
+      <div class="quantity">Quantity: 4</div>
+        <div class="color">Color: Blue </div>
+        <div class="size">Size: XL </div>
+</div>
+
+
+</div>
+<div class="grid-container1">
+
+  <div>
+  <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+</div>
+<div>
+<div class="price">40.312 $ </div>
+    <div class="productName">Asprit Jumper With Garment Dye  </div>
+      <div class="quantity">Quantity: 4</div>
+        <div class="color">Color: Blue </div>
+        <div class="size">Size: XL </div>
+</div>
+
+
+</div>
+
+
+  </body>
+</html>
