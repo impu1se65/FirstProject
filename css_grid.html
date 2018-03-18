@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+  background-image:url("tomorrowland-website.jpg");
+  margin: 1;
+  padding: 0;
+}
+header
+{
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: black;
+  background-repeat:no-repeat;
+  background-size:70% 100%;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  grid-gap: 15px 15px;
+justify-content: center;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-rows:1fr 0.1fr 0.05fr;
+  grid-gap: 5px;
+    justify-content:center;
+    padding: 5px;
+
+}
+img
+{
+  height: 100%;
+  width:100%;
+}
+input[type=text] {
+    float:right;
+    width: 0px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 30%;
+}
+.productName
+{
+  font-size: 18px;
+}
+.price
+{
+  font-size: 20px;
+font-weight:bold;
+}
+.price > button
+{
+  float:right;
+}
+</style>
+
+</head>
+<body>
+<header>
+  <form>
+    <input type="text" name="search" placeholder="Search..">
+  </form>
+</header>
+
+<div class="grid-container">
+  <div class="grid-container1">
+    <div>
+    <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+  </div>
+      <div class="productName">Asprit Jumper With Garment Dye  </div>
+        <div class="price">Price </div>
+  </div>
+
+  <div class="grid-container1">
+    <div>
+    <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+  </div>
+      <div >Asprit Jumper With Garment Dye</div>
+        <div class="price">Price <button>Add to cart</button></div>
+  </div>
+
+
+    <div class="grid-container1">
+    <div>
+    <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+  </div>
+      <div >Asprit Jumper With Garment Dye</div>
+        <div class="price">Price </div>
+  </div>
+
+
+
+   <div class="grid-container1">
+    <div>
+    <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+  </div>
+      <div >Asprit Jumper With Garment Dye</div>
+        <div class="price">Price </div>
+  </div>
+
+
+
+   <div class="grid-container1">
+    <div>
+    <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+  </div>
+      <div >Asprit Jumper With Garment Dye</div>
+        <div class="price">Price </div>
+  </div>
+
+
+    <div class="grid-container1">
+    <div>
+    <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+  </div>
+      <div >Asprit Jumper With Garment Dye</div>
+        <div class="price">Price </div>
+  </div>
+
+
+
+    <div class="grid-container1">
+    <div>
+    <img src="http://images.asos-media.com/products/carhartt-wip-long-sleeve-madison-oxford-shirt-in-navy/8761819-1-navy?$XXL$&amp;wid=513&amp;fit=constrain">
+  </div>
+      <div >Asprit Jumper With Garment Dye</div>
+        <div class="price">Price </div>
+  </div>
+
+</div>
+
+</body>
+</html>
